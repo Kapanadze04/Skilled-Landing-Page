@@ -207,3 +207,99 @@ body {
 }
 
 
+
+
+/***********************************Tablet Size***************************************/
+
+@media only screen and (max-width: 767px) {
+
+    .hero-image_tablet {
+        display: none;
+    }
+
+}
+
+@media only screen and (min-width: 768px) {
+
+    .breakpoint_size {
+        width: 768px;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .header {                     /*HEADER TABLET*/
+        margin-left: 39px;
+        margin-top: 24px;
+        margin-right: 40px;
+    }
+
+    .section {                      /*SECTION TABLET*/
+        margin-top: 88px;
+        margin-left: 39px;                  
+        margin-right: 0px;
+
+        display: flex;
+    }
+
+    .texts > h1 {
+        width: 326px;                
+    }
+
+    .texts > p {
+        margin-top: 25px;
+        width: 398px;
+    }
+
+    .hero-image_mobile {
+        display: none;
+    }
+
+    .hero-image_tablet {
+        margin-left: -67px;
+        margin-top: -240px;
+    }
+
+    .content {                          /*Content TABLET*/
+        display: flex;
+        flex-flow: row wrap;
+        gap: 10px;
+        justify-content: center;
+    }
+
+    .content-start_text {                
+        width: 339px;
+        height: 259px;
+        padding: 56px 21px 139px 32px;
+        margin-bottom: 56px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .content-box {
+        width: 340px;
+        margin-bottom: 56px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .content-icons,
+    .content-box > h3
+    .content-box > h6  {
+        margin-left: 32px;
+    }
+
+    .content-box > p {
+        margin-left: 32px;
+        margin-right: 22px;
+    }
+
+    .footer {                    /*Footer TABLET*/
+        width: 768px;
+        padding-left: 40px;
+        padding-right: 39px;
+    }
+
+
+    
+}
+
