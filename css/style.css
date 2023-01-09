@@ -298,8 +298,115 @@ body {
         padding-left: 40px;
         padding-right: 39px;
     }
+}
 
 
+
+
+/********************************************DESKTOP SIZE********************************************************/
+
+@media only screen and (max-width: 1439px) {
+    .hero-image_desktop {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+
+    .breakpoint_size {
+        width: 1440px;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .header {                     /*HEADER DESKTOP*/
+        margin-left: 165px;
+        margin-right: 165px;
+    }
+
+    .getstarted-container_dark {
+        width: 167px;
+        height: 56px;
+    }
     
+    .getstarted-container_dark > h6 {
+        font-size: 18px;
+    }
+
+    .section {                      /*SECTION TABLET*/
+        margin-left: 165px;                  
+    }
+
+    .texts > h1 {
+        width: 457px;   
+        height: 143px;
+        font-size: 56px;
+        line-height: 70px;             
+    }
+
+    .texts > p {
+        margin-top: 29px;
+        width: 445px;
+        height: 84px;
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    .getstarted-container_light {
+        margin-top: 40px;
+        height: 63px;
+    }
+    
+    .getstarted-container_light > h6 {
+        font-size: 18px;
+    }
+
+    .hero-image_tablet {
+        display: none;
+    }
+
+    .hero-image_desktop {
+        margin-left: 116px;
+        margin-top: -320px;
+    }
+
+    .content {                          /*Content DESKTOP*/
+        gap: 30px;
+    }
+
+    .content-start_text {                
+        width: 350px;
+        height: 322px;
+        padding: 64px 32px 138px 32px;
+        margin-bottom: 80px;
+    }
+
+    .content-box {
+        width: 350px;
+        height: 322px;
+        margin-bottom: 80px;
+    }
+
+    .content-box > p {
+        margin-right: 32px;
+    }
+
+    .footer {                                    /*Footer DESKTOP*/
+        width: 1440px;
+     
+        padding-left: 165px;
+        padding-right: 165px;
+    
+    }
+    
+    .getstarted-container_gradient {
+        width: 167px;
+        height: 56px;
+    }
+    
+    .getstarted-container_gradient > h6 {
+        font-size: 18px;
+    }
+
 }
 
